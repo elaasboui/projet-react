@@ -1,0 +1,72 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Variables CSS pour une personnalisation facile */
+:root {
+  --max-width: 1280px;
+  --padding: 2rem;
+  --text-color: #888;
+  --logo-height: 6em;
+  --logo-padding: 1.5em;
+  --transition-duration: 300ms;
+  --drop-shadow-default: drop-shadow(0 0 2em #646cffaa);
+  --drop-shadow-react: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Conteneur principal */
+#root {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--padding);
+  text-align: center;
+}
+
+/* Styles pour les logos */
+.logo {
+  height: var(--logo-height);
+  padding: var(--logo-padding);
+  will-change: filter;
+  transition: filter var(--transition-duration);
+}
+
+.logo:hover {
+  filter: var(--drop-shadow-default);
+}
+
+.logo.react:hover {
+  filter: var(--drop-shadow-react);
+}
+
+/* Animation de rotation pour le logo */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Application de l'animation si le mouvement n'est pas réduit */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Style de la carte */
+.card {
+  padding: 2em;
+  border-radius: 0.5em; /* Coins arrondis pour un look moderne */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre pour plus de profondeur */
+}
+
+/* Style pour la section "read the docs" */
+.read-the-docs {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  transition: color 200ms;
+}
+
+.read-the-docs:hover {
+  color: #555; /* Interactivité au survol */
+}

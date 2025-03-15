@@ -1,0 +1,75 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "Festival international de Carthage",
+      "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page",
+      "img": "event1.jpg",
+      "price": 30,
+      "nbTickets": 10,
+      "nbParticipants": 10,
+      "like": false
+    },
+    {
+      "name": "Festival de la médina de Tunis ",
+      "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page",
+      "price": 15,
+      "nbTickets": 4,
+      "nbParticipants": 30,
+      "img": "image.jpg",
+      "id": "2"
+    },
+    {
+      "id": "db9e",
+      "name": "tag 12",
+      "description": "test Event Creation Axios",
+      "img": "event2.jpg",
+      "price": 0.01,
+      "nbTickets": 1,
+      "nbParticipants": 0,
+      "like": false
+    },
+    {
+      "name": "tag 2999",
+      "description": "test Event Creation Axios",
+      "img": "event2.jpg",
+      "price": 1.3,
+      "nbTickets": 53,
+      "nbParticipants": 0,
+      "like": false,
+      "id": "0fcb"
+    },
+    {
+      "id": "8a76",
+      "name": "Feriel Yahyaoui",
+      "description": "ccckkkkkkkkkkkkkkkkkkkkkkkkk",
+      "price": 80,
+      "nbTickets": 90,
+      "nbParticipants": 90
+    },
+    {
+      "id": "1dc5",
+      "name": "Dance party",
+      "description": "dance party",
+      "price": 50,
+      "nbTickets": 50,
+      "nbParticipants": 45
+    },
+    {
+      "id": "d4a5",
+      "name": "karaoke",
+      "description": "karaoke party",
+      "price": 70,
+      "nbTickets": 50,
+      "nbParticipants": 48
+    },
+    {
+      "id": "c44c",
+      "name": "Movie party",
+      "description": "movie party",
+      "price": 40,
+      "nbTickets": 60,
+      "nbParticipants": 60
+    }
+  ]
+}
